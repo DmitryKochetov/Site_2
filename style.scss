@@ -23,12 +23,11 @@
 }
 
 .headerLeft {
-
     list-style-type: none;
     display: flex;
     align-self: center;
     align-items: flex-end;
-
+    margin-left: 32px;
 }
 
 .headerLeft li {
@@ -37,7 +36,6 @@
 }
 
 .headerRight {
-
     list-style-type: none;
     display: flex;
     align-items: flex-end;
@@ -55,12 +53,10 @@
 
 .burger:hover .mega_box {
     display: block;
-
 }
 
 .burger:hover .mega_box_surround {
     display: block;
-
 }
 
 .mega_box_surround {
@@ -72,13 +68,10 @@
     display: none;
 }
 
-
-
 .mega_box {
-
     width: 232px;
     height: 764px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 34px;
     position: absolute;
     left: 215px;
@@ -90,22 +83,22 @@
 
 .mega_link {
     display: block;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #6F6E6E;
+    color: #6f6e6e;
     text-decoration: none;
 }
 
 .mega_link:hover {
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .headerMid {
     max-height: 148px;
-    background-color: #F8F3F4;
+    background-color: #f8f3f4;
 }
 
 .hmid {
@@ -116,16 +109,16 @@
 }
 
 .hmidleft h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .hmidright h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -134,10 +127,8 @@
 }
 
 .hmidright span {
-    color: #F16D7F;
+    color: #f16d7f;
 }
-
-
 
 // MAIN
 
@@ -148,9 +139,9 @@
 }
 
 .prodtop {
-    border: 1px solid #EAEAEA;
+    border: 1px solid #eaeaea;
     height: 777px;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
     margin-bottom: 664px;
     display: flex;
     justify-content: center;
@@ -163,7 +154,6 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-
 }
 
 .arrowleft {
@@ -196,8 +186,8 @@
 }
 
 .proddesc {
-    border: 1px solid #EAEAEA;
-    background-color: #FFFFFF;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
     height: 601px;
     display: flex;
     flex-direction: column;
@@ -207,12 +197,12 @@
 }
 
 .proddesc h4 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #F16D7F;
+    color: #f16d7f;
     // margin-top: px;
     margin-bottom: 12px;
 }
@@ -221,47 +211,46 @@
     display: flex;
     width: 63px;
     height: 3px;
-    background-color: #EF5B70;
+    background-color: #ef5b70;
     // border: #000000 1px solid;
 }
 
 .proddesc h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #4D4D4D;
+    color: #4d4d4d;
     margin-top: 12px;
 }
 
 .proddesctext {
     margin-top: 48px;
     width: 555px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #5E5E5E;
+    color: #5e5e5e;
 }
 
 .proddesc h1 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
-    color: #EF5B70;
+    color: #ef5b70;
     margin-top: 32px;
-
 }
 
 .proddescline {
     width: 641px;
     height: 0px;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #eaeaea;
     margin-top: 65px;
 }
 
@@ -271,12 +260,12 @@
 }
 
 .proddescnav h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #6F6E6E;
+    color: #6f6e6e;
     margin-right: 9px;
     margin-left: 23px;
 }
@@ -286,24 +275,22 @@
     display: flex;
     align-items: center;
     padding: 10px 30px;
-    border: 1px solid #FF6A6A;
+    border: 1px solid #ff6a6a;
 }
 
 .button_addtocart_text {
     // display: block;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: #f26376;
     margin-left: 10px;
 }
 
-
-
 .top_main {
-    background-color: #F1E4E6;
+    background-color: #f1e4e6;
 }
 
 .hdown {
@@ -326,7 +313,7 @@
 .verticalpp {
     height: 92px;
     width: 12px;
-    background-color: #F16D7F;
+    background-color: #f16d7f;
     margin-right: 16px;
 }
 
@@ -353,7 +340,7 @@
 }
 
 .hdowntext span {
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .maintop {
@@ -378,21 +365,21 @@
 .card h3 {
     padding: 0;
     margin: 0;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .card h2 {
     padding: 0;
     margin: 0;
-    color: #F16D7F;
-    font-family: 'Lato';
+    color: #f16d7f;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -403,26 +390,25 @@
 .widecard h3 {
     padding: 0;
     margin: 0;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .widecard h2 {
     padding: 0;
     margin: 0;
-    color: #F16D7F;
-    font-family: 'Lato';
+    color: #f16d7f;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28.8px;
     text-align: center;
-
 }
 
 .card1 {
@@ -450,7 +436,7 @@
 }
 
 .cardset_heading h1 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -458,16 +444,15 @@
     color: #222222;
     text-align: center;
     margin-top: 96px;
-
 }
 
 .cardset_heading p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #9F9F9F;
+    color: #9f9f9f;
     text-align: center;
     margin-bottom: 48px;
 }
@@ -480,12 +465,10 @@
     margin-bottom: 30px;
     flex-wrap: wrap;
     // text-align: center;
-
 }
 
 .cardset_top_product_insert {
     height: 68px;
-
 }
 
 .item_link {
@@ -497,7 +480,7 @@
 .product_card {
     width: 360px;
     // height: 100%;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
     position: relative;
     margin-bottom: 30px;
 }
@@ -523,8 +506,7 @@
 }
 
 .item_name {
-
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -533,23 +515,21 @@
 }
 
 .item_desc {
-
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #5D5D5D;
+    color: #5d5d5d;
 }
 
 .item_price {
-
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .add_box {
@@ -559,13 +539,12 @@
     top: 188px;
     justify-content: center;
     pointer-events: none;
-
 }
 
 .add {
     display: flex;
     text-decoration: none;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     padding: 8px;
     justify-content: center;
     align-items: center;
@@ -573,7 +552,7 @@
 }
 
 .add:hover {
-    box-shadow: 0 0 10px 0 #FFFFFF;
+    box-shadow: 0 0 10px 0 #ffffff;
 }
 
 .cart {
@@ -581,12 +560,12 @@
 }
 
 .add_desc {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 //Cart
@@ -615,7 +594,7 @@
 }
 
 .shoppingCartCardDesc h1 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -626,12 +605,11 @@
 }
 
 .shoppingCartCardDesc span {
-    color: #EF5B70;
-
+    color: #ef5b70;
 }
 
 .shoppingCartCardDesc h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -645,7 +623,7 @@
 }
 
 .shoppingCartCardQuantity {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -655,7 +633,7 @@
     display: block;
     width: 43px;
     height: 24px;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #eaeaea;
     margin-left: 24px;
     text-align: center;
     justify-content: center;
@@ -665,7 +643,6 @@
     position: absolute;
     top: 28px;
     right: 22px;
-
 }
 
 .shoppingCartCardSetButtons {
@@ -674,18 +651,17 @@
 }
 
 .shoppingCartCardSetButton {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    border: 1px solid #A4A4A4;
+    border: 1px solid #a4a4a4;
     text-decoration: none;
     padding: 20px 40px;
     margin-top: 72px;
 }
-
 
 .mainSet {
     display: flex;
@@ -703,7 +679,7 @@
 }
 
 .shoppingCartForm h1 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -713,64 +689,59 @@
     margin-top: 0;
 }
 
-
 .shoppingCartFormField {
     height: 45px;
     margin-bottom: 21px;
     padding-left: 30px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
     // color: #222222;
-    border: 1px solid #A4A4A4;
+    border: 1px solid #a4a4a4;
 }
 
 .buttonGetQuote {
     width: 101px;
     height: 35px;
-    border: 1px solid #A4A4A4;
+    border: 1px solid #a4a4a4;
     border-radius: 0%;
-    background-color: #FFFFFF;
-    font-family: 'Lato';
+    background-color: #ffffff;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 11px;
     line-height: 13px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     margin-top: 3px;
-
 }
-
-
 
 .cartTotal {
     margin-top: 58px;
     width: 360px;
     height: 214px;
-    background-color: #F5F3F3;
+    background-color: #f5f3f3;
     display: flex;
     flex-direction: column;
     // box-sizing: border-box;
 }
 
 .cartTotal h3 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     margin-top: 39px;
     margin-bottom: 12px;
     margin-right: 34px;
     text-align: end;
 }
 
-
 .cartTotal h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -779,13 +750,11 @@
     margin-bottom: 21px;
     margin-right: 34px;
     text-align: end;
-
 }
 
 .cartTotal span {
-    color: #F16D7F;
+    color: #f16d7f;
 }
-
 
 .cartTotalLine {
     // display: inline-block;
@@ -794,14 +763,12 @@
     // background-color: #E2E2E2;
     align-self: center;
     // color: #000000;
-    border-bottom: 1px solid #E2E2E2;
+    border-bottom: 1px solid #e2e2e2;
 }
 
-
 .buttonCardProceed {
-
     padding: 20px 50px;
-    border: #FF6A6A 1px solid;
+    border: #ff6a6a 1px solid;
     margin-top: 17px;
     margin-bottom: 42px;
     display: inline-block;
@@ -812,29 +779,24 @@
 }
 
 .buttonCardProceedText {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: #f26376;
 }
 
 .buttonCardProceed:hover {
-    background-color: #F16D7F;
-    border: 1px solid #FF6A6A;
+    background-color: #f16d7f;
+    border: 1px solid #ff6a6a;
 }
 
 .buttonCardProceed:hover .buttonCardProceedText {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-
-
-
-
 // Footer
-
 
 .footer_top {
     height: 341px;
@@ -857,25 +819,24 @@
 }
 
 .adv_heading {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 19.96px;
     line-height: 24px;
-    color: #FBFBFB;
+    color: #fbfbfb;
     margin-bottom: 16px;
     margin-top: 25px;
 }
 
 .adv_text {
-
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
     margin-top: 0;
 }
 
@@ -887,7 +848,7 @@
     // width: auto;
     // height: 47px;
     padding: 20px 50px;
-    border: #FF6A6A 1px solid;
+    border: #ff6a6a 1px solid;
     // text-align: center;
     margin-top: 48px;
     margin-bottom: 95px;
@@ -900,25 +861,24 @@
     // justify-self: center;
     // align-self: center;
     text-align: center;
-
 }
 
 .b_b_p_text {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: #f26376;
 }
 
 .button_browse_product:hover {
-    background-color: #F16D7F;
-    border: 1px solid #FF6A6A;
+    background-color: #f16d7f;
+    border: 1px solid #ff6a6a;
 }
 
 .button_browse_product:hover .b_b_p_text {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .footer_mid {
@@ -927,7 +887,6 @@
     height: 448px;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .footer_m {
@@ -955,7 +914,7 @@
 
 .mid_left .fig_capt {
     margin-top: 25px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -980,7 +939,7 @@
 }
 
 .mid_right h1 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -988,11 +947,10 @@
     text-align: center;
     color: #222224;
     margin: 0;
-
 }
 
 .mid_right h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     margin: 0;
     font-weight: 400;
@@ -1000,21 +958,18 @@
     line-height: 40px;
     text-align: center;
     color: #222224;
-
 }
 
 .unite {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     width: 100%;
     display: flex;
     justify-items: center;
     margin-top: 22px;
-
 }
 
 .button_subscribe {
-
     border-radius: 0 10px 10px 0;
     font-weight: 500;
     font-size: 16px;
@@ -1022,16 +977,15 @@
     text-align: center;
     width: 30%;
     height: 49px;
-    background-color: #E05C6E;
-    color: #FFFFFF;
+    background-color: #e05c6e;
+    color: #ffffff;
     border: none;
-
 }
 
 input[type="email"] {
     border-radius: 10px 0 0 10px;
     border: none;
-    background-color: #E1E1E1;
+    background-color: #e1e1e1;
     padding-left: 15px;
     width: 70%;
 }
@@ -1044,13 +998,12 @@ input[type="email"] {
 }
 
 .footer_copy {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #FBFBFB;
-
+    color: #fbfbfb;
 }
 
 .f_d {
@@ -1075,7 +1028,7 @@ input[type="email"] {
 .brand_link {
     width: 32px;
     height: 32px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     // color: #E1E1E1;
     // display: flex;
     margin-right: 8px;
@@ -1087,5 +1040,50 @@ input[type="email"] {
 }
 
 .brand_link:hover {
-    background-color: #F16D7F;
+    background-color: #f16d7f;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hdown {
+        width: 100%;
+        height: 368px;
+        background-image: url(images/header/hdownPhoto.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left center;
+        display: flex;
+    }
+
+    .hdowntext {
+        margin-top: 168px;
+        margin-left: 453px;
+        height: 93px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hdowntext h1 {
+
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 53px;
+    }
+    
+    .hdowntext h2 {
+        margin: 0;
+        padding: 0;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+  
+  
 }
