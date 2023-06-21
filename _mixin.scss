@@ -1,0 +1,6 @@
+@mixin br-c($p1, $p2, $p3, $p4) {
+    -webkit-border-radius: $p1 $p2 $p3 $p4;
+    -moz-border-radius: $p1 $p2 $p3 $p4;
+    -ms-border-radius: $p1 $p2 $p3 $p4;
+    border-radius: $p1 $p2 $p3 $p4;
+}
