@@ -82,6 +82,7 @@ burger-menu-main {
 }
 
 .menubox {
+  display: none;
   position: absolute;
   background: #fff;
   padding: 32px;
@@ -1206,6 +1207,18 @@ input[type=email] {
     letter-spacing: 0em;
     text-align: left;
   }
+  .cardset_top {
+    justify-content: space-around;
+  }
+  .product_card {
+    width: 46vw;
+    background-color: #f8f8f8;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .item_pic {
+    width: 46vw;
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
@@ -1274,5 +1287,33 @@ input[type=email] {
   }
   .footer_down {
     display: none;
+  }
+  .product_card {
+    width: 90vw;
+    background-color: #f8f8f8;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .item_pic {
+    width: 90vw;
+  }
+  .item_desc {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .item_name {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .txt_box {
+    padding: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
