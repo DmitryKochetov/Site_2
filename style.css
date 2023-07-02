@@ -95,6 +95,7 @@ summary::-webkit-details-marker {
   top: 44px;
   right: -10000px;
   transition: right 0.3s;
+  z-index: 500;
 }
 
 .mega_heading {
