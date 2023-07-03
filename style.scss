@@ -66,15 +66,11 @@ summary::-webkit-details-marker {
     // box-sizing: border-box;
 }
 
-.headerRight li {
-    // position: relative;
-}
-
 #check {
     display: none;
 }
 
-#check:checked~.menubox {
+#check:checked ~ .menubox {
     // display: block;
     right: -130px;
     // visibility: visible;
@@ -166,12 +162,60 @@ summary::-webkit-details-marker {
 .middlecont {
     width: 1600px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.newarrivals {
+    background-color: #f8f3f4;
+    width: 1600px;
+    margin: 0 auto;
+    height: 148px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 17%;
+    padding-right: 17%;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+        color: #f16d7f;
+        font-size: 24px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__right {
+        display: flex;
+        flex-direction: row;
+        // gap: 5px;
+    }
+}
+
+.newarrivalslink {
+    display: block;
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.newarrivalslink:nth-child(n + 2)::before {
+    content: "/";
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.newarrivalslink:last-child {
+    color: #f16d7f;
 }
 
 .prodtop {
     border: 1px solid #eaeaea;
-    height: 777px;
+    // height: 777px;
     background-color: #f7f7f7;
     margin-bottom: 664px;
     display: flex;
@@ -1106,11 +1150,6 @@ input[type="email"] {
     }
     &[open] .filter__heading {
         color: $color_pink;
-    }
-    &[open] {
-        // min-height: 550px;
-        // z-index: 1000;
-        // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     &[open] path {
         fill: $color_pink;
