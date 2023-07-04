@@ -78,10 +78,16 @@
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+    background-color: $color_white;
     border: 1px solid #a4a4a4;
     text-decoration: none;
     padding: 20px 40px;
     margin-top: 72px;
+    transition: all 0.3s;
+}
+
+.shoppingCartCardSetButton:hover {
+    transform: scale(1.2);
 }
 
 .mainSet {
@@ -130,6 +136,11 @@
     line-height: 13px;
     color: #4a4a4a;
     margin-top: 3px;
+    transition: all 0.3s;
+}
+
+.buttonGetQuote:hover {
+    transform: scale(1.2);
 }
 
 .cartTotal {
@@ -187,6 +198,7 @@
     justify-content: center;
     text-decoration: none;
     text-align: center;
+    transition: all 0.3s;
 }
 
 .buttonCardProceedText {
@@ -194,6 +206,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #f26376;
+    transition: all 0.3s;
 }
 
 .buttonCardProceed:hover {
