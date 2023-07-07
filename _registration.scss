@@ -1,0 +1,122 @@
+.formPlusTotalSet {
+    margin-top: 113px;
+    margin-left: 128px;
+}
+
+.registrationLeft {
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.registrationForm {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    &__Field {
+        height: 45px;
+        margin-bottom: 21px;
+        padding-left: 30px;
+        padding-right: 30px;
+        @extend .standart_text_300;
+        font-size: 13px;
+        line-height: 16px;
+        border: 1px solid #a4a4a4;
+    }
+    &__h2 {
+        @extend .standart_text_300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+}
+
+.regText {
+    color: #B1B1B1;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.buttonJoinNow {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.3s;
+    width: 167px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #f26376;
+    margin-top: 39px;
+    transition: all 0.3s;
+    border: $color_pink 1px solid;
+    background-color: $color_white;
+    &__arrow path {
+        fill: $color_pink;
+        transition: all 0.3s;
+    }
+    &__arrow {
+        margin-left: 20px;
+    }
+}
+
+.buttonJoinNow:hover {
+    background-color: #f26376;
+}
+
+.buttonJoinNow:hover {
+    color: $color_white;
+}
+
+.buttonJoinNow:hover .buttonJoinNow__arrow path {
+    fill: $color_white;
+}
+
+.registrationRight {
+    width: 652px;
+    margin-top: 64px;
+    margin-left: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.registrationList {
+    list-style-position: inside;
+    list-style-image: url(images/middle/VectorForOlRegistration.svg);
+    gap: 16px;
+}
+
+.loyalityHeader {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.loyalityText {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.loyalityItem {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+}
