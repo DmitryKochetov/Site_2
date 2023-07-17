@@ -176,7 +176,7 @@ summary::-webkit-details-marker {
 
 .newarrivals {
     // background-color: #f8f3f4;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     height: 148px;
     display: flex;
@@ -231,7 +231,7 @@ summary::-webkit-details-marker {
 }
 
 .prodcenter {
-    width: 100%;
+    max-width: 100%;
     height: 777px;
     display: flex;
     align-items: center;
@@ -246,6 +246,7 @@ summary::-webkit-details-marker {
     width: 47px;
     height: 47px;
     background-color: rgba(42, 42, 42, 0.15);
+    z-index: 1000;
 }
 
 .arrowright {
@@ -1005,8 +1006,9 @@ summary::-webkit-details-marker {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        width: 100%;
+        max-width: 1024px;
         margin: 0 auto;
+
     }
     .hdown {
         width: 100%;
@@ -1056,6 +1058,9 @@ summary::-webkit-details-marker {
         margin-bottom: 16px;
         // overflow: auto;
     }
+    .product_card_filter{
+        display: none;
+    }
     .item_pic {
         width: 46vw;
     }
@@ -1064,6 +1069,27 @@ summary::-webkit-details-marker {
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .prodmid {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+    }
+    .filter-sort {
+        // height: 132px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 39px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        margin-bottom: 65px;
+    }
+
+
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

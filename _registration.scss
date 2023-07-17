@@ -1,13 +1,16 @@
-.formPlusTotalSet {
-    margin-top: 113px;
-    margin-left: 128px;
-}
+// .formPlusTotalSet {
+//     margin-top: 113px;
+//     margin-left: 128px;
+// }
 
 .registrationLeft {
     padding-top: 64px;
     padding-bottom: 96px;
 }
 
+.mainRegistraionSet{
+    display: flex;
+}
 .registrationForm {
     width: 360px;
     display: flex;
@@ -119,4 +122,18 @@
     font-weight: 300;
     line-height: normal;
     margin-bottom: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.mainRegistraionSet{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.loyalityItemSpan{
+margin-left: 23px;
+
+}
+
+
 }
