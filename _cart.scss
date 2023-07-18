@@ -230,19 +230,98 @@
     margin-right: auto;
   }
   .shoppingCartCardSetButtons {
-
     justify-content: center;
     gap: 48px;
   }
-  
-  .formPlusTotalSet{
+
+  .formPlusTotalSet {
     margin-top: 0px;
     margin-bottom: 128px;
     display: flex;
     gap: 15px;
     // flex-direction: column;
   }
-  .cartTotal{
+  .cartTotal {
     margin-top: 48px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .mainSet {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoppingCartCardSet {
+    // padding-left: 16px;
+    // padding-right: 16px;
+    margin-top: 59px;
+    margin-bottom: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .shoppingCartCard {
+    height: 306px;
+    max-width: 95%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shoppingCartCardSetButtons {
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .formPlusTotalSet {
+    margin-top: 0px;
+    margin-bottom: 128px;
+    display: flex;
+    gap: 15px;
+    // flex-direction: column;
+  }
+  .cartTotal {
+    margin-top: 48px;
+  }
+  .shoppingCartCardSetButton {
+    width: 45vw;
+    margin-top: 10px;
+  }
+
+  .formPlusTotalSet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    margin-left: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .shoppingCartForm {
+    width: 94vw;
+    
+  }
+
+  .cartTotal {
+    box-sizing: border-box;
+    margin-top: 48px;
+    width: 94vw;
+    // padding-right: 15vw;
+    &__h3{
+      padding-right: 10vw;
+    }
+    &__h2{
+      padding-right: 10vw;
+    }
+    &__Line {
+      // display: inline-block;
+      height: 0px;
+      width: 70vw;
+      // background-color: #E2E2E2;
+      align-self: center;
+      // color: #000000;
+      border-bottom: 1px solid #e2e2e2;
+    }
+
   }
 }

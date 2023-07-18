@@ -301,6 +301,54 @@
     height: auto;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer_m {
+    display: flex;
+    flex-direction: column;
+    padding-top: 54px;
+  }
+  .mid_left figure {
+    padding-top: 0px;
+    padding-bottom: 59px;
+    height: auto;
+  }
+  .mid_right {
+    margin-top: 48px;
+    margin-bottom: 115px;
+    height: auto;
+  }
+  .mid_left figure {
+    padding: 0px;
+    margin: 0;
+    height: auto;
+  }
+  .footer_down {
+    height: auto;
+    padding-top: 43px;
+    padding-bottom: 24px;
+    background-color: #222224;
+  }
+  .f_d {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .advantages {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    min-height: 341px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+  }
+}
 .standart_text, .buttonCardProceedText, .cartTotal__h3, .shoppingCartCard__Quantity, .shoppingCartCard__h2, .shoppingCartCard__h1, .adv_heading, .mid_left .fig_capt, .mid_right h2, .unite, .footer_copy {
   font-family: "Lato";
   font-style: normal;
@@ -540,6 +588,72 @@
     margin-top: 48px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .mainSet {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoppingCartCardSet {
+    margin-top: 59px;
+    margin-bottom: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .shoppingCartCard {
+    height: 306px;
+    max-width: 95%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shoppingCartCardSetButtons {
+    justify-content: center;
+    gap: 3vw;
+  }
+  .formPlusTotalSet {
+    margin-top: 0px;
+    margin-bottom: 128px;
+    display: flex;
+    gap: 15px;
+  }
+  .cartTotal {
+    margin-top: 48px;
+  }
+  .shoppingCartCardSetButton {
+    width: 45vw;
+    margin-top: 10px;
+  }
+  .formPlusTotalSet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    margin-left: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .shoppingCartForm {
+    width: 94vw;
+  }
+  .cartTotal {
+    box-sizing: border-box;
+    margin-top: 48px;
+    width: 94vw;
+  }
+  .cartTotal__h3 {
+    padding-right: 10vw;
+  }
+  .cartTotal__h2 {
+    padding-right: 10vw;
+  }
+  .cartTotal__Line {
+    height: 0px;
+    width: 70vw;
+    align-self: center;
+    border-bottom: 1px solid #e2e2e2;
+  }
+}
 .registrationLeft {
   padding-top: 64px;
   padding-bottom: 96px;
@@ -572,7 +686,7 @@
 }
 
 .regText {
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-family: Lato;
   font-size: 13px;
   font-style: normal;
@@ -668,6 +782,75 @@
   }
   .loyalityItemSpan {
     margin-left: 23px;
+  }
+  .loyalityHeader {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .loyalityText {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .loyalityItem {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .mainRegistraionSet {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .registrationForm {
+    width: 100%;
+  }
+  .registrationLeft {
+    padding-top: 64px;
+    padding-bottom: 0px;
+  }
+  .registrationRight {
+    margin: 40px 0px 100px 0px;
+    width: 100%;
+    padding: 0;
+  }
+  .loyalityHeader {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .loyalityText {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+  }
+  .loyalityItem {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
   }
 }
 * {
@@ -828,6 +1011,10 @@ summary::-webkit-details-marker {
 }
 
 .newarrivals {
+  background-color: #f8f3f4;
+  width: 100vw;
+  padding-left: 16px;
+  padding-right: 16px;
   max-width: 1140px;
   margin: 0 auto;
   height: 148px;
@@ -835,6 +1022,7 @@ summary::-webkit-details-marker {
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
+  border-bottom: #e9e9e9 1px solid;
 }
 .newarrivals__left {
   color: #f16d7f;
@@ -1260,12 +1448,12 @@ summary::-webkit-details-marker {
 }
 
 .item_desc {
-  font-family: "Lato";
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  color: #5d5d5d;
+  line-height: normal;
 }
 
 .item_price {
@@ -1481,11 +1669,6 @@ summary::-webkit-details-marker {
   .item_pic {
     width: 46vw;
   }
-  .newarrivals {
-    width: 100vw;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   .prodmid {
     max-width: 100%;
     margin-left: auto;
@@ -1563,15 +1746,6 @@ summary::-webkit-details-marker {
   .cardset_top {
     justify-content: center;
   }
-  .footer_top {
-    display: none;
-  }
-  .footer_mid {
-    display: none;
-  }
-  .footer_down {
-    display: none;
-  }
   .product_card {
     width: 90vw;
     background-color: #f8f8f8;
@@ -1599,5 +1773,64 @@ summary::-webkit-details-marker {
   }
   .txt_box {
     padding: 10px;
+  }
+  .newarrivals {
+    height: 148px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodmid {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    right: auto;
+    text-align: center;
+  }
+  .proddesctext {
+    color: #5e5e5e;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 143.1%; /* 20.034px */
+  }
+  .arrowleft {
+    position: absolute;
+    left: 0;
+  }
+  .arrowright {
+    position: absolute;
+    right: 0;
+  }
+  .productImage {
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  .filter-sort {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 39px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    margin-bottom: 65px;
+  }
+  .filter {
+    display: flex;
+    align-items: center;
+  }
+  .filter__heading {
+    display: none;
+  }
+  .filter__burger {
+    margin-left: 3vw;
+    scale: 3;
   }
 }/*# sourceMappingURL=style.css.map */
